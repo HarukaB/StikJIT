@@ -9,6 +9,8 @@ import SwiftUI
 import Network
 import UniformTypeIdentifiers
 
+let ProxyURLPrefix = "https://fastgit.cc/"
+
 let fileManager = FileManager.default
 
 
@@ -81,9 +83,9 @@ struct HeartbeatApp: App {
     @StateObject private var mount = MountingProgress.shared
     
     let urls: [String] = [
-        "https://github.com/doronz88/DeveloperDiskImage/raw/refs/heads/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/BuildManifest.plist",
-        "https://github.com/doronz88/DeveloperDiskImage/raw/refs/heads/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/Image.dmg",
-        "https://github.com/doronz88/DeveloperDiskImage/raw/refs/heads/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/Image.dmg.trustcache"
+        "\(ProxyURLPrefix)https://github.com/doronz88/DeveloperDiskImage/raw/refs/heads/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/BuildManifest.plist",
+        "\(ProxyURLPrefix)https://fastgit.cc/https://github.com/doronz88/DeveloperDiskImage/raw/refs/heads/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/Image.dmg",
+        "\(ProxyURLPrefix)https://fastgit.cc/https://github.com/doronz88/DeveloperDiskImage/raw/refs/heads/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/Image.dmg.trustcache"
     ]
     
     let outputDir: String = "DDI"
