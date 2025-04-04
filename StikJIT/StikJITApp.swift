@@ -84,8 +84,8 @@ struct HeartbeatApp: App {
     
     let urls: [String] = [
         "\(ProxyURLPrefix)https://github.com/doronz88/DeveloperDiskImage/raw/refs/heads/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/BuildManifest.plist",
-        "\(ProxyURLPrefix)https://fastgit.cc/https://github.com/doronz88/DeveloperDiskImage/raw/refs/heads/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/Image.dmg",
-        "\(ProxyURLPrefix)https://fastgit.cc/https://github.com/doronz88/DeveloperDiskImage/raw/refs/heads/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/Image.dmg.trustcache"
+        "\(ProxyURLPrefix)https://github.com/doronz88/DeveloperDiskImage/raw/refs/heads/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/Image.dmg",
+        "\(ProxyURLPrefix)https://github.com/doronz88/DeveloperDiskImage/raw/refs/heads/main/PersonalizedImages/Xcode_iOS_DDI_Personalized/Image.dmg.trustcache"
     ]
     
     let outputDir: String = "DDI"
